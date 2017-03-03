@@ -1,20 +1,20 @@
 .red{
 	background: red;
-	width: 40%;
+	width: 50%;
 	float: left;
-	height: 350px;
+	height: 70%;
 
 }
 .blue{
 	background: blue;
-	width: 60%;
+	width: 50%;
 	float: right;
-	height: 350px;
+	height: 70%;
 
 }
 .green{
 	background: green;
-	height: 300px;
+	height: 30%;
 
 
 
