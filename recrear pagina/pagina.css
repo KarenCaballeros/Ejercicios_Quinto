@@ -1,0 +1,37 @@
+.a{
+	background-image: url("imagenes/background_header.png");
+	background-position: center;
+	height: 600px;
+	position: center;
+}
+.b{
+	background: white;
+	height: 150px;
+}
+.c1{
+	background-image: url(imagenes/hair.png);
+	background-position: center;
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+.c2{
+	background:green;
+	width: 50%;
+	height: 400px;
+	float: right;
+}
+.d{
+	background:white;
+	height: 650px;
+}
+.e{
+	background: grey;
+	height: 50px;
+}
+.b h1{
+	color: green;
+	font-weight: normal;
+	padding-left: 35%;
+
+}
