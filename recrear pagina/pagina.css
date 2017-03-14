@@ -2,11 +2,11 @@
 	background-image: url("imagenes/background_header.png");
 	background-position: center;
 	height: 600px;
-	position: center;
+	
 }
 .b{
 	background: white;
-	height: 150px;
+	height: 200px;
 }
 .c1{
 	background-image: url(imagenes/hair.png);
@@ -16,22 +16,70 @@
 	float: left;
 }
 .c2{
-	background:green;
+	background:#088A08;
 	width: 50%;
 	height: 400px;
 	float: right;
+	position: relative;
 }
 .d{
 	background:white;
-	height: 650px;
+	height: 750px;
 }
 .e{
-	background: grey;
-	height: 50px;
+	background: #BDBDBD;
+
 }
 .b h1{
 	color: green;
 	font-weight: normal;
+	padding-top: 2%;
 	padding-left: 35%;
 
+}
+.b p{
+	color: grey;
+	font-weight: normal;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.c2 h1{
+	color: white;
+	font-weight: normal;
+	padding-top: 10%;
+	padding-left: 20%;
+}
+.c2 p{
+	color: white;
+	font-weight: normal;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 7%;
+}
+.c2 a{
+	background:white;
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	left: 75px;
+	bottom:70px;
+}
+.c2 a{
+	color: green;
+}
+.d h1{
+	color: grey;
+	font-weight: normal;
+	padding-top: 45%;
+	padding-left: 10%;
+}
+.e{
+	color: #424242;
+	padding-left: 20%;
+}
+.e strong{
+	color: green;
+}
+.d img.valve{
+	padding-left: 5%;
 }

@@ -1,5 +1,11 @@
-.white{width: 200px;height: 200px;border: 2px black solid ;position: relative;}
-.pink{background-color: pink;right:75px;top:75px;}
+.white{width: 200px;
+	height: 200px;
+	border: 2px black solid ;
+	position: relative;}
+
+.pink{background-color: pink;
+	right:75px;
+	top:75px;}
 .yellow{background-color: yellow;right:125px;top:125px;}
 .red{background-color: red;right:0;top:0;}
 .blue{background-color: blue;right:50px;top:50px;}
