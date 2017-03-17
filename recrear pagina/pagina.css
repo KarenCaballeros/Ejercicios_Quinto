@@ -4,6 +4,13 @@
 	height: 600px;
 	
 }
+.a h1{
+	color: white;
+	font-weight: normal;
+	font-size: 75px;
+	padding-top: 20%;
+	padding-left: 15%;
+}
 .b{
 	background: white;
 	height: 200px;
