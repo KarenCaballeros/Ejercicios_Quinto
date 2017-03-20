@@ -3,12 +3,12 @@ from django.db import models
 class Estudiante(models.Model):
 	nombres = models.CharField(max_length = 100)
 	apellidos = models.CharField(max_length = 100)
-	edad = models.IntegerField(defaul= 0)
+	edad = models.IntegerField(default= 0)
 	grado = models.ForeignKey("grados.Grado" )
 		
-	def _unicode_(self):
-		return "%S %S - %S" % (
-			self.nombres
-			self.apellidos
+	def __unicode__(self):
+		return "%s %s - %s" % (
+			self.nombres,
+			self.apellidos,
 			self.grado)
 
