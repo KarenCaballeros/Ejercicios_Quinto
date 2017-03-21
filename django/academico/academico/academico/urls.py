@@ -18,4 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^grados/',
+    	grados_views.lista_grados,
+    	name="lista_grados")
 ]
