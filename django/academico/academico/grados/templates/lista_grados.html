@@ -5,7 +5,7 @@
 		<ul>
 			{% for grado in grados %}
 				<li>
-					{{grado}}
+					<a href="{% url 'detalle_grado' grado_pk=grado.id %}">{{grado}}</a>
 				</li>
 			{% empty %}
 				<p>No hay grados!</p>
