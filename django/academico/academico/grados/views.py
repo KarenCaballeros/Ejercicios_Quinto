@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from grados.models import Grado
+from estudiantes.models import Estudiante
 
 
 def lista_grados(request):
@@ -8,6 +9,8 @@ def lista_grados(request):
 		{'grados' : grados})
 
 def detalle_grado(request, grado_pk):
-	grado = Grado.objects.grado_pk()
+	grado = Grado.objects.get(pk=grado_pk)
+	estudiantes = Estudiante.objects.filter(grado=grado)
 	return render(request, 'detalle_grado.html',
-		{'estudiantes' : estudiantes})
+		{'grado' : grado , estudiantes = estudiantes
+		})
