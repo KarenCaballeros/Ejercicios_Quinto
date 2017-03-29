@@ -9,7 +9,13 @@
 				</li>
 			{% empty %}
 				<p>No hay grados!</p>
-			{% endfor %}		
+			{% endfor %}	
+			<h2>Nuevo Grado</h2>
+			<form action="/grados/crear/" method= "POST">
+				{% csrf_token %}
+				{{grado_form}}
+				<input type="Submit">	
+			</form>
 		</ul>
 	</body>
 </html>

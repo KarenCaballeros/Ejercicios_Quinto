@@ -4,11 +4,9 @@
 		<h1>{{grado.nombre}}</h1>
 		<ul>
 			{% for estudiante in estudiantes%}
-				{% if estudiante.grado == grado %}
-					<li>{{estudiante}}</li>
-				{% empty %}
-					<p>No hay estudiantes en este grado</p>
-				{% endif %}	
+				<li>{{estudiante}}</li>
+			{% empty %}
+				<p>No hay estudiantes en este grado</p>
 			{% endfor %}		
 		</ul>
 	</body>

@@ -4,9 +4,7 @@
 		<h1>Lista de estudiantes</h1>
 		<ul>
 			{% for estudiante in estudiantes %}
-				<li>
-					{{estudiante}}
-				</li>
+				<li>{{estudiante}}</li>
 			{% empty %}
 				<p>No hay estudiantes!</p>
 			{% endfor %}		
